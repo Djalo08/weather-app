@@ -1,4 +1,5 @@
        const openweathermaps_key = "f002dfd443e7f397e71917a53cccaecc"
+       document.getElementById("paw-form-searchWeather").addEventListener("click", searchWeather);
 
        function searchWeather() {
     var lat = $("#paw-form-lat").val();
