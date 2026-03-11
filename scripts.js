@@ -12,7 +12,7 @@
             $("#Results").html(currentWeather);
         }
     }
-    xhttp.open("GET",`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${openweathermaps_key}`,true);
+    xhttp.open("GET",`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${openweathermaps_key}`,true);
     xhttp.setRequestHeader('Accept', 'application/json');
     xhttp.send();
         }
