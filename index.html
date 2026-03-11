@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Web App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
+<div class="weahterform">
+<h1>Search weather</h1>
+
+<label>Latitude</label>
+<input id="paw-form-lat" type="text" class="form-control paw-form-element">
+
+<label>Longitude</label>
+<input id="paw-form-lon" type="text" class="form-control paw-form-element">
+
+<button id="paw-form-searchWeather" class="btn btn-success paw-form-element">
+Search
+</button>
+</div>
+<hr>
+
+<div id="paw-results-row" class="col-md-12">
+<div class="weahterform">
+
+<h1>Weather Results</h1>
+<p id="Results"></p>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<!-- JavaScript -->
+<script src="script.js"></script>
+  
+</body>
+</html>
